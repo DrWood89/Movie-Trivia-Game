@@ -75,19 +75,18 @@ li {
     padding: 10px 10px;
 }
 
-.bottons {
+.buttons {
     cursor: pointer;
     background-color: #57636e;
-}
-
-.buttons {
     outline: 0;
+    
 }
 
 
 
 .button {
     /* display: block; */
+    text-align: center;
     background-color: #778897;
     width: 250px;
     font-size: 20px;

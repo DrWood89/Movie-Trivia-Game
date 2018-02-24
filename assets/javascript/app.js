@@ -36,7 +36,7 @@ var questions = [{
 var currentQuestion = 0;
 var correctAnswers = 0;
 var quizOver = false;
-
+var startGame = true;
 var Wins = 0;
 var Losses = 0;
 
@@ -46,13 +46,19 @@ $(document).ready(function () {
 
 
 
-
+    $('.button').html('Start Game!')
     // Display the first question
-    displayCurrentQuestion();
+    // displayCurrentQuestion();
     $("#answer").hide();
 
     // On clicking next, display the next question
     $(".button").on("click", function () {
+        if (startGame) {
+            startGame = false;
+            $('.button').html('Submit!');
+            displayCurrentQuestion();
+            return;
+        }
         if (!quizOver) {
 
             var value = $("input[type='radio']:checked").val();
@@ -114,34 +120,13 @@ $(document).ready(function () {
                 },3000)
                 quizOver = true;
             }
-        // } else { // quiz is over and clicked the next button (which now displays 'Play Again?'
-        //     quizOver = false;
-        //     $(".button").html("Try Again!");
-        //     resetQuiz();
-        //     displayCurrentQuestion();
-        //     hideScore();
+
         }
         else if (quizOver) {
             console.log("Quiz is over");
             resetQuiz();
         }
-        //  if (currentQuestion < questions.length-1) {
-        //     displayCurrentQuestion();
-        //     $('#answer').show();
-        //     console.log(currentQuestion);
 
-        // } else if(currentQuestion >= questions.length-1){
-        //     stopwatch.reset();
-        //     stopwatch.stop();
-        //     displayScore();
-        //     //$(document).find(".nextButton").toggle();
-        //     //$(document).find(".playAgainButton").toggle();
-        //     // Change the text in the next button to ask if user wants to play again
-        //     $('.choiceList').empty();
-        //     $('#question').empty();
-        //     $(".button").html("Play Again?");
-        //     quizOver = true;
-        // }
     });
 
 });
@@ -265,7 +250,7 @@ function resetQuiz() {
 }
 
 function displayScore() {
-    $("#progress").text("You scored: " + Wins + " out of: " + questions.length);
+    $("#progress").text("You scored: " + Wins + " out of " + questions.length);
     $("#progress").show();
 }
 
