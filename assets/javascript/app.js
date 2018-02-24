@@ -99,8 +99,8 @@ $(document).ready(function () {
 
                 // Since we have already displayed the first question on DOM ready
             }
-            console.log(currentQuestion);
-            if (currentQuestion < questions.length-1) {
+
+            else if (currentQuestion < questions.length-1) {
                 displayCurrentQuestion();
                 $('#answer').show();
                 console.log(currentQuestion);
