@@ -67,3 +67,5 @@ questions each levels.
 
 ---
 ### 6-Preview Link
+
+[Deployed Link](https://drwood89.github.io/Movie-Trivia-Game/)
