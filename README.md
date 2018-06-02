@@ -2,7 +2,7 @@
 
 ## :mag: Table of contents :mag:
 
-### [1-Description](https://github.com/DrWood89/BamazonDB#1-description-page_facing_up)
+### [1-Description](https://github.com/DrWood89/Movie-Trivia-Game#1-description-page_facing_up)
 ### [2-Technologies](https://github.com/DrWood89/BamazonDB#2-technologies-computer)
 ### [3-Challenges](https://github.com/DrWood89/BamazonDB#3-challenges)
 ### [4-Future Updates](https://github.com/DrWood89/BamazonDB#4-future-updates)
