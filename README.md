@@ -5,9 +5,9 @@ Well designed Movie Trivia GAme
 ## :mag: Table of contents :mag:
 
 ### [1-Description](https://github.com/DrWood89/Movie-Trivia-Game#1-description-page_facing_up)
-### [2-Technologies](https://github.com/Movie-Trivia-Game#2-technologies-computer)
+### [2-Technologies](https://github.com/DrWood89/Movie-Trivia-Game#2-technologies-computer)
 ### [3-Challenges](https://github.com/DrWood89/Movie-Trivia-Game#3-challenges)
-### [4-Issues](https://github.com/DrWood89/Movie-Trivia-Game#4-Issues)
+### [4-Issues](https://github.com/DrWood89/Movie-Trivia-Game#4-issues)
 ### [5-Future Updates](https://github.com/DrWood89/Movie-Trivia-Game#5-future-updates)
 ### [6-Preview Link](https://github.com/DrWood89/Movie-Trivia-Game#6-preview-link)
 
