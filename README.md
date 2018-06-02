@@ -9,7 +9,7 @@ Well designed Movie Trivia GAme
 ### [3-Challenges](https://github.com/DrWood89/Movie-Trivia-Game#3-challenges)
 ### [4-Issues](https://github.com/DrWood89/Movie-Trivia-Game#4-Issues)
 ### [5-Future Updates](https://github.com/DrWood89/Movie-Trivia-Game#5-future-updates)
-### [6-Preview Video Links](https://github.com/DrWood89/Movie-Trivia-Game#6-preview-video-links)
+### [6-Preview Link](https://github.com/DrWood89/Movie-Trivia-Game#6-preview-link)
 
 ---
 ### 1-Description :page\_facing\_up:
@@ -30,6 +30,8 @@ Well designed Movie Trivia GAme
   
    This app is to showcase the ability to work with html, css and jquery to build logic and create a basic well
    designed and working as intented web app. 
+   
+   Below is a deployed link to our working site
   
   
 ---
@@ -42,11 +44,26 @@ Well designed Movie Trivia GAme
 ---
 ### 3-Challenges 
 
+Some of the challenges faced building this app was structuring my arrays to links each questions to their 4 possibles 
+answers and their correct answer. then i struggled with incorporating my time clock into my project, i knew how to build
+it but making it all work in sync was a bit challenging and also setting the timeout that display live feedback after 
+answering each questions.
+
 ---
 ### 4-Issues
+
+The issue facing this site right now after you through all the quedstions it just stops. i struggled with the 
+formulation of the logic to average a correct answer percentage, wrong answer pecerntage, best time percentage
+and an overall high score percentage.
 
 ---
 ### 5-Future Updates
 
+As future update i'd like to fix the issues listed above and also incorporate a restart button that restart the 
+game over.
+
+Maybe even 4 other sets of 10 questions that goes up different levels with shorter clock time to answer each 
+questions each levels.
+
 ---
-### 6-Preview Video Links
+### 6-Preview Link
