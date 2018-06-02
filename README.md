@@ -31,7 +31,7 @@ Well designed Movie Trivia GAme
    This app is to showcase the ability to work with html, css and jquery to build logic and create a basic well
    designed and working as intented web app. 
    
-   **Note:** Below is a deployed link to our working site
+   **Note:**Below is a deployed link to our working site
   
   
 ---
